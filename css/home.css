@@ -11,6 +11,7 @@
 }
 
 #pic-container img{
+	display:block;
 	height:auto;
 	width:auto;
 	max-width:100%;
@@ -18,18 +19,8 @@
 	-webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
     -moz-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
     box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
-}
-
-#intro img{
-	margin:auto;
-	width:100%;
-	height:auto;
-	-webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
-    -moz-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
-    box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
 	border:10px solid #bbb;
 	border-radius:8px;
-	
 	
 }
 
@@ -64,7 +55,7 @@
 }
 	#text-container{
 		margin:auto;
-		dispaly:none;
+		
 	}
 	#home-container{
 		min-height:100%;

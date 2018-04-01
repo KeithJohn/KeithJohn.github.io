@@ -6,7 +6,6 @@
 }
 
 #social-link-container{
-	padding-left:60px;
 	background-color:grey;
 	border-radius:15px;
 	-webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
@@ -29,34 +28,22 @@
 	font-size:30px;
 	font-weight:bold;
 }
-#linkedin-container{
-	padding:70px;
-}
-#linkedin-container img{
-	margin:auto;
-	height:auto;
-	width:auto;
-	max-width:100%;
-    max-height: 100%;
-}
 
-#email-container{
-	padding:0;
-}
 
 .social-container{
 	display:inline;
 	margin-left:auto;
 	margin-right:auto;
-	padding:10px;
+	padding:20px;
+	padding-bottom:40px;
 }
 
 .social-container img{
 	margin:auto;
 	height:auto;
-	width:auto;
+	width:400px;
 	max-width:100%;
-    max-height: 100%;
+    max-height:100%;
 }
 
 .sectionTitle{
@@ -82,13 +69,12 @@
 		font-size:30px;
 	}
 }
-@media screen and (max-width:832px){
-	#linkedin-container img{
-		padding-right:75px;
-	}
-}
+
 
 @media screen and (max-width:500px){
+	.social-container{
+		display:block;
+	}
 	.sectionTitle h2{
 		font-size:40px;
 	}
@@ -97,12 +83,6 @@
 	}
 	#social-link-container p{
 		font-size:20px;
-	}
-	#linkein-container img{
-		padding:0;
-	}
-	#linkedin-container{
-	padding:15px;
 	}
 
 @media screen and (max-width:350px){
