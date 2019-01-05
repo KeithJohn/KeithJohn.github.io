@@ -1,0 +1,42 @@
+@media (min-width:768px){
+    .text-right-sm{text-align: right}
+}
+
+.education-banner{
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ),url(assets/UniversityOfWisconsinBanner.jpg) center no-repeat;
+    opacity: 80%;
+    height: 20rem;
+    background-size: cover;
+}
+.experience-banner{
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ),url(assets/keyboard_mouse.jpg) center no-repeat;
+    height: 20rem;
+    background-size: cover;
+}
+.projects-banner{
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ),url(assets/coding_banner.jpg) center no-repeat;
+    height: 20rem;
+    background-size: cover;
+}
+.coursework-list{
+    font-size: large;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+.download-btn{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.download-btn:hover{
+    background-color: RoyalBlue;
+}

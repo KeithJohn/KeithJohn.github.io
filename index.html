@@ -1,58 +1,338 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Keith Ecker</title>
-	<meta name="description" content="Keith Ecker's website. Created using HTML, CSS, and JavaScript.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:400,600,700" rel=stylesheet">
-	<link rel="stylesheet" href="css/normalize.min.css">
-	<link rel="stylesheet" href="css/boilerplate.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/home.css" >
-	<link rel="stylesheet" href="css/navbar.css">
-	<script src="js/navbar.js"></script>
+    <title>Keith Ecker</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <!--<script src="js/jquery-3.3.1.min.js"></script>-->
+    <!--&lt;!&ndash;TODO: Fix this&ndash;&gt;-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('.hidden').fadeIn(1000).removeClass(hidden);-->
+        <!--})-->
+    <!--</script>-->
 </head>
 
 <body>
-	<section id="header" style="background-color:#8c92ac;">
-		<h1> Keith Ecker</h1>
-	</section>
-	
-	<section id="navBar">
-		<div class="topnav" id="myTopnav">
-			<a href="index.html" class="active">Home</a>
-			<a href="education.html">Education</a>
-			<a href="experience.html">Experience</a>
-			<a href="resume.html">Resume</a>
-			<a href="contact.html">Contact</a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-		</div>
-
-	</section>
-
-	<section id="intro">
-		<div id="home-container">
-			<div id="pic-container">
-				<img src="img/keithecker.png" alt="Keith Ecker">
-			</div>
-			<div id="text-container">
-				<h2>Hello,</h2>
-				<p> Welcome to my website. I am a motivated, dedicated, and hardworking student studying computer science at the University of Wisconsin-Madison, and I am currently seeking an internship for the summer of 2018.
-				You can find my education, experience, and resume information on the navigation bar above. Please feel free to contact me using the information on my contact page.</p>
-			</div>
-	
-		</div>
-	</section>
-
-	<footer>
-	
-        <p>Website created by Keith Ecker</p>
-        <p>
-            <a href="mailto:keithjohn1020@gmail.com">keithjohn1020@gmail.com</a>
+<div class="container-fluid p-0">
+    <div class="bg-dark container-fluid text-white shadow border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom bg-none">
+            <img src="assets/KE_Logo.svg" width="150" height="100" class="d-inline-block align-top" alt="TODO">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href=#Education>Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href=#Experience>Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href=#Projects>Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href=#Resume>Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href=#Contact>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-sm text-right-sm">
+                <h1 class="display-1 mb-5 hidden">Keith</h1>
+            </div>
+            <div class="col-sm">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm ">
+            </div>
+            <div class="col-sm">
+                <h1 class="display-1 main_title hidden">Ecker</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+                <p class="display-4 m-5">Software Developer</p>
+            </div>
+            <div class="col-sm">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center bg-dark text-white border-bottom">
+        <h1 class="display-3 pt-3 mb-5">About Me</h1>
+        <p class="p-5 m-0 lead">Hello, I am a senior at the University of Wisconsin studying computer science.
+            In my free time I enjoy working on many different personal projects to improve and gain skills.
+            You can see more about some of these projects in the projects section below.
+            I have experience in many different programming languages and frameworks which you can read more about
+            below.
         </p>
-    </footer>
-	
-</body>
+    </div>
+    <section id="Education">
+        <div class="container-fluid text-center education-banner text-white shadow border-bottom">
+            <h1 class="display-3 pt-5 mb-5">Education</h1>
+            <p class="pt-5-sm lead mb-5">Below you can see information about my education including the courses I have taken,
+                code from these courses, clubs I am a part of, and more. </p>
+        </div>
+        <div class="container-fluid bg-dark text-white border-bottom pl-sm-5 pr-sm-5">
+            <div class="container-fluid">
+                <div class="container-fluid text-center">
+                    <h1 class="display-4 pt-5 pb-3">University of Wisconsin - Madison</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4-sm p-5">
+                        <img src="assets/UniversityOfWisconsin.svg" width="100%" height=auto class="d-inline-block align-top" alt="University of Wisconsin">
+                    </div>
+                    <div class="col-sm p-5">
+                        <p class="mb-3 lead">I transferred to the University of Wisconsin my junior year, and continued my education in computer science.
+                            At the University of Wisconsin I have been a part of many clubs such as the Software Development Club.
+                            I have also done well in all of my computer science courses at this university with a GPA of 3.4 in these classes. </p>
+                        <p class="mb-3">GPA: 3.36</p>
+                        <p class="mb-3">Attended: 2017-2019</p>
+                    </div>
+                </div>
+                <hr/>
+            </div>
 
+            <div class="container-fluid">
+                <div class="container-fluid text-center">
+                    <h1 class="display-4 pt-5 pb-3">University of Wisconsin - Fox Valley</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4-sm p-5">
+                        <img src="assets/FoxValley.svg" width="100%" height=auto class="d-inline-block align-top" alt="University of Wisconsin - Fox Valley">
+                    </div>
+                    <div class="col-sm p-5">
+                        <p class="mb-3 lead">At the University of Wisconsin - Fox Valley I have been apart of many different activities.
+                            I played on the men's basketball team where I was voted team captain my sophomore year.
+                            I was also a member of the computer science club. In this club I worked with my professor in research on different topics.
+                            </p>
+                        <p class="mb-3 lead">GPA: 3.25</p>
+                        <p class="mb-3 lead">Attended: 2015-2017</p>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <div class="container-fluid text-center">
+                <h1 class="display-4 pt-5 pb-3 m-0">Coursework</h1>
+                <div class="row p-5 coursework-list">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-sm">
+                        <ul class="list-group">
+                            <li class="pb-2 lead">Data Structures I & II</li>
+                            <li class="pb-2 lead">Calculus I & II</li>
+                            <li class="pb-2 lead">Introduction to Operating Systems</li>
+                            <li class="pb-2 lead">Machine Organization & Programming</li>
+                            <li class="pb-2 lead">Software Security</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-sm">
+                        <ul class="list-group">
+                            <li class="pb-2 lead">Introduction to Artificial Intelligence</li>
+                            <li class="pb-2 lead">Introduction to Numerical Methods</li>
+                            <li class="pb-2 lead">Linear Algebra and Differential Equations</li>
+                            <li class="pb-2 lead">Discrete Mathematics</li>
+                            <li class="pb-2 lead">Introduction to Computer Networks</li>
+                            <li class="pb-2 lead">Software Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1">
+
+                    </div>
+                </div>
+                <!--TODO: Link to code from classes(new page) -->
+            </div>
+        </div>
+    </section>
+    <section id="Experience">
+        <div class="container-fluid text-center experience-banner text-white border-bottom">
+            <h1 class="display-3 pt-5 mb-5">Experience</h1>
+            <p class="m-0 lead">I have experience in computer science research and java development, which you can learn more about below. </p>
+        </div>
+        <div class="container-fluid bg-dark text-white border-bottom pl-sm-5 pr-sm-5">
+            <div class="container-fluid">
+                <div class="container-fluid text-center">
+                    <h1 class="display-4 pt-5 pb-3">Flexagon</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4-sm p-5">
+                        <img src="assets/Flexagon.svg" width="100%" height=auto class="d-inline-block align-top" alt="Flexagon">
+                    </div>
+                    <div class="col-sm p-5">
+                        <p class="mb-3 lead">Software Developer</p>
+                        <p class="mb-3 lead">May 2018 - Present</p>
+                        <p class="mb-3 lead">At Flexagon I have worked extensively on REST API with JAX-RS using Jersey on an Oracle ADF Application.
+                        I have also spent time creating automatic test cases for our many features, as well as following industry standards for coding and documentation.</p>
+
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <div class="container-fluid">
+                <div class="container-fluid text-center">
+                    <h1 class="display-4 pt-5 pb-3">Research Assistant</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4-sm p-5">
+                        <img src="assets/FoxValley.svg" width="100%" height=auto class="d-inline-block align-top" alt="Research Assistant">
+                    </div>
+                    <div class="col-sm p-5">
+                        <p class="mb-3 lead">Research Assistant - University of Wisconsin - Fox Valley</p>
+                        <p class="mb-3 lead">January 2016 - May 2017</p>
+                        <p class="mb-3 lead">As a research assistant I worked with a group of other students to identify and conduct research on problems within the software development industry.
+                            Our research mainly consisted of the evolution of many different open source software and its security vulnerability.
+                            I have also created presentations and presented our work at local and international conferences.
+                            We have one paper published in IEEE Xplore on the prevalence of indirect function calls in middleware software systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Projects">
+        <div class="container-fluid text-center projects-banner text-white">
+            <h1 class="display-3 pt-5 pb-3">Projects</h1>
+            <p class="m-0 pb-2 lead">In my free time I enjoy learning more about different programming languages, and create different personal projects.
+                You can read more about some of these projects below.</p>
+        </div>
+        <div class="container-fluid bg-dark text-white border-bottom pl-sm-5 pr-sm-5">
+            <div class="container-fluid">
+                <div class="container-fluid text-center">
+                    <h1 class="display-4 pt-5 pb-3">BACulator</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4-sm p-5">
+                        <img src="assets/BACalculator.svg" width="140%" height=auto class="d-inline-block align-top rounded" alt="BACalculator">
+                    </div>
+                    <div class="col-sm p-5">
+                        <p class="mb-3 lead">BACulator is an app developed with swift that estimates the users blood alcohol content.
+                            BACulator uses the weight and gender of the user along with the amount of alcohol drank to estimate the user's BAC.
+                            We use an algorithm based on a method of blood alcohol estimation released by the department of transportation.
+                            With this algorithm we are able to estimate how the user's BAC changes over time, and track when the individual's BAC will reach zero.
+                        </p>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <div class="container-fluid">
+                <div class="container-fluid text-center">
+                    <h1 class="display-4 pt-5 pb-3">DJ-Queue</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4-sm p-5">
+                        <img src="assets/DJ_Queue_Logo.svg" width="140%" height="auto" class="d-inline-block align-top rounded" alt="TODO">
+                    </div>
+                    <div class="col-sm p-5">
+                        <p class="mb-3 lead">DJQueue is an app that creates a new experience for those that love to listen to music with others.
+                             DJQueue is created with swift, and allows users to dynamically add songs to a group queue.
+                            We use the Spotify API to integrate our app with the millions of songs on Spotifty.
+                        </p>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <div class="container-fluid text-center">
+                <h1 class="display-4 pt-5 pb-5">More Coming Soon...</h1>
+                <!--TODO: bullet point list two column with courses I have taken -->
+                <!--TODO: Link to code from classes(new page) -->
+            </div>
+        </div>
+    </section>
+    <section class="Resume">
+        <div class="container-fluid text-center bg-secondary border-bottom text-white">
+            <h1 class="display-3 pt-5 pb-3">Resume</h1>
+            <p class="m-0 p-5 lead">My resume has more information about some of skills and experiences. You can view my resume by clicking the button below.
+                You can also see some of my skills as well as some code that I have written below.
+            </p>
+            <div class="pb-5">
+                <button class="download-btn rounded" style="width:66%"><i class="fa fa-download"></i> Download</button>
+            </div>
+
+            <!--TODO: Add button to download resume-->
+        </div>
+        <div class="container-fluid bg-dark text-white border-bottom pl-sm-5 pr-sm-5">
+            <div class="container-fluid text-center">
+                <h1 class="display-4 pt-5 pb-3">Skills</h1>
+                <div class="row p-5">
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-sm">
+                        <ul class="list-group">
+                            <li class="pb-2 lead">Java</li>
+                            <li class="pb-2 lead">C/C++</li>
+                            <li class="pb-2 lead">Html, CSS, Bootstrap</li>
+                            <li class="pb-2 lead">SQL</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-sm">
+                        <ul class="list-group">
+                            <li class="pb-2 lead">REST API</li>
+                            <li class="pb-2 lead">Oracle ADF</li>
+                            <li class="pb-2 lead">Swift</li>
+                            <li class="pb-2 lead">JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1">
+                    </div>
+                </div>
+                <!--TODO: Maybe links to code which i use skills fancy list thing -->
+            </div>
+        </div>
+    </section>
+    <section class="Contact">
+        <div class="container-fluid text-center bg-dark text-white border-bottom">
+            <h1 class="display-3 pt-5 pb-3">Contact</h1>
+            <p class="m-0 p-5 lead">If you would like to contact me, you can do that by clicking the links below. You can reach me by email, linkedin, and see some of my code I have developed on my github.
+            </p>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="pb-3">
+                    <a href="mailto:keithjohn1020@gmail.com"><img src="assets/email.svg" height="250" width="250"></a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="pb-3">
+                    <a href="https://www.linkedin.com/in/keith-ecker-a583b9116/"><img src="assets/linkedin.svg" height="250" width="250"></a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="pb-3">
+                    <a href="https://www.facebook.com/keith.ecker2"><img src="assets/facebook.svg" height="250" width="250"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Footer">
+    <div class="footer text-center bg-secondary m-0 text-white">
+        <p class="p-3 m-0">Website created by Keith Ecker using html, css, bootstrap, and javascript</p>
+    </div>
+    </section>
+
+</div>
+</body>
 </html>
